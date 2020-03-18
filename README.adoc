@@ -1,0 +1,2 @@
+This repository is used as sample YAML database for
+Bacman (https://github.com/riboseinc/bacman).
