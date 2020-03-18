@@ -1,0 +1,38 @@
+---
+:category: cat_a
+:subcategory: c
+:version: Oxksxrszy7hjo2yN
+:creation_date: 2020-04-18
+:purposes: To get ready for Emacs on smartphone
+:invocation_criteria:
+- Temperature goes up to 25 degree Celsius
+- Relative humidity goes up to 90%
+- No cookies left in the cookie jar
+:RTO: 21m
+:RPO: N/A
+:recommended_drill_frequency: At least once every 2 years
+:resources_required:
+- smartphone
+:responsibles:
+- smartphone manager
+- smartphone staff
+:preparation_steps:
+- Plug smartphone into the mains
+- Stare at it
+:steps:
+- :description: Turn on smartphone
+  :responsible:
+  - smartphone manager
+  :time_allowed: 5m
+- :description: Open Emacs
+  :responsible:
+  - smartphone staff
+  :time_allowed: 5m
+- :description: Click on the X to close Emacs
+  :responsible:
+  - smartphone staff
+  :time_allowed: 1m
+- :description: Turn off smartphone
+  :responsible:
+  - smartphone manager
+  :time_allowed: 10m

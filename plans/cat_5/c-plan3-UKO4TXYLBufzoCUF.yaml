@@ -1,0 +1,38 @@
+---
+:category: cat_5
+:subcategory: c
+:version: UKO4TXYLBufzoCUF
+:creation_date: 2018-08-02
+:purposes: To get ready for Notepad on PC
+:invocation_criteria:
+- Temperature goes up to 25 degree Celsius
+- Relative humidity goes up to 90%
+- No cookies left in the cookie jar
+:RTO: 21m
+:RPO: N/A
+:recommended_drill_frequency: At least once every 2 years
+:resources_required:
+- PC
+:responsibles:
+- PC manager
+- PC staff
+:preparation_steps:
+- Plug PC into the mains
+- Stare at it
+:steps:
+- :description: Turn on PC
+  :responsible:
+  - PC manager
+  :time_allowed: 5m
+- :description: Open Notepad
+  :responsible:
+  - PC staff
+  :time_allowed: 5m
+- :description: Click on the X to close Notepad
+  :responsible:
+  - PC staff
+  :time_allowed: 1m
+- :description: Turn off PC
+  :responsible:
+  - PC manager
+  :time_allowed: 10m

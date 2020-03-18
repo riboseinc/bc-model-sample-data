@@ -1,0 +1,38 @@
+---
+:category: cat_5e
+:subcategory: b
+:version: hKExNCrr9Z94QKB4
+:creation_date: 2019-07-25
+:purposes: To get ready for Vim on console
+:invocation_criteria:
+- Temperature goes up to 25 degree Celsius
+- Relative humidity goes up to 90%
+- No cookies left in the cookie jar
+:RTO: 21m
+:RPO: N/A
+:recommended_drill_frequency: At least once every 2 years
+:resources_required:
+- console
+:responsibles:
+- console manager
+- console staff
+:preparation_steps:
+- Plug console into the mains
+- Stare at it
+:steps:
+- :description: Turn on console
+  :responsible:
+  - console manager
+  :time_allowed: 5m
+- :description: Open Vim
+  :responsible:
+  - console staff
+  :time_allowed: 5m
+- :description: Click on the X to close Vim
+  :responsible:
+  - console staff
+  :time_allowed: 1m
+- :description: Turn off console
+  :responsible:
+  - console manager
+  :time_allowed: 10m

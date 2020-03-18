@@ -1,0 +1,38 @@
+---
+:category: cat_5
+:subcategory: a
+:version: 3PaK7ohgBQgjACCQ
+:creation_date: 2020-01-16
+:purposes: To get ready for Notepad on Mac
+:invocation_criteria:
+- Temperature goes up to 25 degree Celsius
+- Relative humidity goes up to 90%
+- No cookies left in the cookie jar
+:RTO: 21m
+:RPO: N/A
+:recommended_drill_frequency: At least once every 2 years
+:resources_required:
+- Mac
+:responsibles:
+- Mac manager
+- Mac staff
+:preparation_steps:
+- Plug Mac into the mains
+- Stare at it
+:steps:
+- :description: Turn on Mac
+  :responsible:
+  - Mac manager
+  :time_allowed: 5m
+- :description: Open Notepad
+  :responsible:
+  - Mac staff
+  :time_allowed: 5m
+- :description: Click on the X to close Notepad
+  :responsible:
+  - Mac staff
+  :time_allowed: 1m
+- :description: Turn off Mac
+  :responsible:
+  - Mac manager
+  :time_allowed: 10m

@@ -1,0 +1,38 @@
+---
+:category: cat_a
+:subcategory: a
+:version: DjDW4r1uMGQGRe0A
+:creation_date: 2019-10-30
+:purposes: To get ready for Emacs on computer
+:invocation_criteria:
+- Temperature goes up to 25 degree Celsius
+- Relative humidity goes up to 90%
+- No cookies left in the cookie jar
+:RTO: 21m
+:RPO: N/A
+:recommended_drill_frequency: At least once every 2 years
+:resources_required:
+- computer
+:responsibles:
+- computer manager
+- computer staff
+:preparation_steps:
+- Plug computer into the mains
+- Stare at it
+:steps:
+- :description: Turn on computer
+  :responsible:
+  - computer manager
+  :time_allowed: 5m
+- :description: Open Emacs
+  :responsible:
+  - computer staff
+  :time_allowed: 5m
+- :description: Click on the X to close Emacs
+  :responsible:
+  - computer staff
+  :time_allowed: 1m
+- :description: Turn off computer
+  :responsible:
+  - computer manager
+  :time_allowed: 10m

@@ -1,0 +1,61 @@
+---
+:meta:
+  :total_step_number: 4
+:doc:
+  :plan_name: general/a-plan2
+  :plan_version: YnTkExTQviIPcQis
+  :date: 2020-12-15
+  :time: '0900'
+  :authors:
+  - Jane
+  :participants:
+  - Jane
+  - Joe
+  :followup:
+  - PC probably needs upgrading.
+  :steps:
+  - :drill_type: live
+    :description: Turn on PC
+    :responsible:
+    - Jane
+    :time_allowed: 5m
+    :start_time: '0900'
+    :end_time: '0910'
+    :result: failure
+    :result_description: PC is turned on, but took a long time.
+    :result_evidence:
+    - image: https://pastebin/654ew98e
+  - :drill_type: live
+    :description: Open Notepad
+    :responsible:
+    - Joe
+    :time_allowed: 5m
+    :start_time: '0910'
+    :end_time: '0915'
+    :result: success
+    :result_description: Notepad is opened, but took a long time.
+    :result_evidence:
+    - image: https://pastebin/654ew8es
+  - :drill_type: live
+    :description: Click on the X to close Notepad
+    :responsible:
+    - Joe
+    :time_allowed: 1m
+    :start_time: '0915'
+    :end_time: '0916'
+    :result: failure
+    :result_description: Notepad can't be closed.  There's no response from the computer.
+    :result_evidence:
+    - image: https://pastebin/64ew98es
+  - :drill_type: live
+    :description: Turn off PC
+    :responsible:
+    - Jane
+    :time_allowed: 10m
+    :start_time: '0916'
+    :end_time: '1518'
+    :result: failure
+    :result_description: PC is turned off, but the malware scanner took a long while.
+    :result_evidence:
+    - image: https://pastebin/654w98es
+    - image: https://pastebin/754w98es
