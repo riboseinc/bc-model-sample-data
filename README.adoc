@@ -1,2 +1,28 @@
-This repository is used as sample YAML database for
-Bacman (https://github.com/riboseinc/bacman).
+= bacman-sample-data
+
+This repository is used as sample YAML database for Bacman
+(https://github.com/riboseinc/bacman[^]).
+
+== Sample generation
+
+Run `scripts/generate_reports` to generate sample drill reports and related
+plans into the appropriate directories and files.
+
+[source,console]
+----
+$ scripts/generate_reports
+Generated reports: 50
+$ ls
+plans/   records/ scripts/
+----
+
+== See
+
+https://github.com/riboseinc/bacman[^]
+
+
+== License and credits
+
+See link:LICENSE.adoc[`LICENSE.adoc`^].
+
+Copyright Ribose Inc.
