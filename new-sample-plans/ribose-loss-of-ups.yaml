@@ -1,0 +1,100 @@
+plan:
+  organization: "Ribose Inc."
+  name: "Loss or damage of equipment: UPS battery"
+  purpose_scope: "Recovery of UPS functionality on UPS battery failure"
+
+  invocation_criteria:
+    - "UPS battery is no longer functional."
+
+  authority:
+    - "IT service manager"
+
+  # objectives and measures of success in terms of prioritized activities;
+  objectives:
+    - type: recovery_time_objective
+      value: 4 hours
+
+  # how to invoke this plan
+  procedure_invocation:
+    - id: loss-of-ups-battery-invoke
+
+  # when to stop this plan
+  standdown_criteria:
+    - "UPS battery failure is fixed"
+
+  # how to stop this plan
+  procedure_standdown:
+    - id: loss-of-ups-battery-standdown
+
+  # procedures within the plan
+  # "information flow and documentation processes" should
+  # be documented within procedures
+  procedures:
+    - id: loss-of-ups-battery-move-electricity-usage-to-wall
+    - id: loss-of-ups-battery-order-battery
+    - id: loss-of-ups-battery-install-battery
+    - id: loss-of-ups-battery-move-electricity-wall-to-battery
+
+  # contact information of relevant parties
+  contact_information:
+    - name: "operations team"
+      email: operations@ribose.com
+    - name: "BC manager"
+      email: "bc.manager@ribose.com"
+
+  # communication requirements and procedures
+  communication:
+    - "Escalate to IT service manager"
+    - "Alert all operations team members"
+
+  dependencies:
+    - "access to battery supplier"
+
+
+procedures:
+  - id: loss-of-ups-battery-invoke
+    resource_needs:
+      - "Management representative. IT service manager and IS manager available via phone or email"
+    description:
+      - Invocation procedure for loss of UPS battery functionality
+    roles:
+      - name: "management representative"
+        responsibilities: "arrange person to execute recovery plan"
+
+  - id: loss-of-ups-battery-move-electricity-usage-to-wall
+    resource_needs:
+      - "1 operations team member"
+    description:
+      - CCTV devices and network equipment affected by failed UPS battery should be migrated to AC power supply.
+
+  - id: loss-of-ups-battery-order-battery
+    resource_needs:
+      - "1 operations team member"
+      - "access to UPS battery suppliers"
+      - "approval from purchasing department"
+    description:
+      - Contact battery supplier to obtain replacement battery
+      - Receive replacement battery
+
+  - id: loss-of-ups-battery-install-battery
+    resource_needs:
+      - "1 operations team member"
+      - "access to UPS battery suppliers"
+    description:
+      - Contact battery supplier to obtain replacement battery
+      - Receive replacement battery
+
+  - id: loss-of-ups-battery-move-electricity-wall-to-battery
+    resource_needs:
+      - "1 operations team member"
+    description:
+      - CCTV devices and network equipment affected by failed UPS battery should be migrated back to UPS power supply.
+
+  - id: loss-of-ups-battery-standdown
+    resource_needs:
+      - "1 operations team member"
+    description:
+      - Ensure all CCTV devices and network equipment are switched back to resumed UPS power supply.
+
+
+

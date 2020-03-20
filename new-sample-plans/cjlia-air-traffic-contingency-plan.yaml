@@ -1,0 +1,290 @@
+plan:
+  url: https://www.icao.int/NACC/Documents/eDOCS/ATM/CPlans/ContPlan-AIA.pdf
+  organization: "Clayton J. Lloyd International Airport (CJLIA) Anguilla"
+  name: "Air Traffic Management Contingency Plan"
+  purpose: |
+    1.1 The Air Traffic Management (ATM) Contingency Plan for Clayton J Lloyd International Airport details arrangements to ensure the continued safety of air navigation in the event of partial or total disruption of air traffic services in the CJLIA CTR in accordance with ICAO Annex 11 ─ Air Traffic Services. The Contingency Plan provides the ATS procedures that will allow aircraft operators to operate within CJLIA CTR during periods of limited or no ATS, as far as is practicable.
+    1.2 This plan relates to all arrival/departure of aircraft to and from CJLIA and transit traffic in CJLIA CTR.
+
+  scope: |
+
+    In the event that Clayton J. Lloyd International Airport activates this Contingency Plan, the Antigua ATS unit, the San Juan ATS unit, the civil aviation authorities of adjacent ATS units, Centres, States or FIRs affected will be notified in accordance with the LETTER OF AGREEMENT or these procedures. The adjacent ATS units, Centres, States or FIRs directly affected by this Contingency Plan are as follows:
+    a. PRINCESS JULIANA INTERNATIONAL AIRPORT
+    ATS UNIT
+    b. V.C. BIRD INTERNATIONAL AIRPORT
+    ACC/ATS UNIT
+    c. LUIS MUÑOZ MARÍN INTERNATIONAL AIRPORT
+    ACC/ATS UNIT
+
+    The contact details of the civil aviation authorities, organisations and ATS units are
+    contained in Appendix A. These details should be kept up to date and regularly reviewed.
+
+  description: |
+
+  invocation_criteria:
+    - name: "Limited Service"
+      description: |
+        The contingency measures set out in this Plan are applicable in cases of planned and unexpected interruptions in ATS caused by natural occurrences or other circumstances, which, in one way or another, may impair or totally disrupt the provision of ATS and/oroftherelatedsupportservicesintheCJLIACTR.
+
+  authority:
+    - "Clayton J. Lloyd Management Team"
+
+  # objectives and measures of success in terms of prioritized activities;
+  objectives:
+    - type: recovery_time_objective
+      value: 4 hours
+
+  # how to invoke this plan
+  procedure_invocation:
+    - id: loss-of-ups-battery-invoke
+
+  # when to stop this plan
+  standdown_criteria:
+    - "UPS battery failure is fixed"
+
+  # how to stop this plan
+  procedure_standdown:
+    - id: loss-of-ups-battery-standdown
+
+  # procedures within the plan
+  # "information flow and documentation processes" should
+  # be documented within procedures
+  procedures:
+
+    - id: invocation
+      description:
+        - ...
+      roles:
+        - name: "Clayton J. Lloyd Management Team"
+          responsibilities:
+            - The Clayton J. Lloyd Management Team shall oversee the conduct of the Contingency Plan and in the event that the CJLI AATS is disrupted for an extended period, make arrangements for and facilitate the temporary relocation of the ATS to the Princess Juliana ATS UNIT, where possible and oversee the restoration of CJLIA ATS.
+
+            - Under the circumstances described and when deemed necessary by the CJLIA ATS (or under the circumstances described in its Terms of Reference and when deemed necessary) and as soon as practicable in advance of, or after the commencement of a contingency event causing disruption to CJLIA has occurred, the CJLIA ATS shall convene the Central Coordinating Committee, by the most expeditious means appropriate for the situation, e.g. by telephone or web-based conference.
+
+            - The ATM Operational Contingency Group (AOCG) function will be convened by the Clayton J. Lloyd Management Team with a primary responsibility to oversee the day to day operations under the contingency arrangements, and coordinate operational ATS activities, during hours of operation, throughout the contingency period. The terms of reference of the AOCG will be determined by the C J. Lloyd Management Team.
+
+        - name: ATM Operational Contingency Group (AOCG)
+          responsibilities: |
+            i) review and update of the Contingency Plan as required;
+            ii) keep up to date regarding the contingency situation;
+            iii) organisecontingencyteamsineachofthespecialisedareas;
+            iv) keep in contact with and update all affected airspace and system users, customers and other relevant stakeholders.
+            v) exchange up-to-date information with the adjacent ATS authorities concerned to coordinate contingency activities;
+            vi) notify the designated organisations of the contingency situation sufficiently in advance and/or as soon as possible thereafter;
+            vii) take necessary action for issuing NOTAMs according to this plan or as otherwise determined by the contingency situation. Where the contingency situation is sufficiently foreseeable the relevant NOTAMs will be issued 48 hours in advance of the contingency events. NOTAM templates are provided in Appendix A.
+
+
+      - id:
+        description: |
+          In the event of disruption of the ATC services provided by CJLIA ATS UNIT, contingency routes and procedures will be specified to ensure safety of flight and to facilitate limited flight operations commensurate with the prevailing conditions. Existing ATS routes and procedures form the basis of the contingency routes and procedures to be used, and additional PPR restrictions may be applied to limit the number of aircraft operating simultaneously in the system under reduced air traffic services.
+
+        roles:
+          - name: "AOCG"
+            resopnsibilities: Additional unpublished contingency routes and procedures may be developed tactically by the AOCG and promulgated by NOTAM as and when circumstances require, such as in the case of volcanic ash cloud, radioactive cloud or severe weather event. Any such amendments to routes and procedures will be notified to, and agreed with, the adjacent ATS units, Centres, States and FIRs specified in Paragraph 2, as appropriate.
+          - name: "CCC"
+            responsibilities: If circumstances dictate, domestic flights and international flights that have not yet departed may be temporarily suspended until a full assessment of the prevailing conditions has been determined and sufficient air traffic services restored. A decision to curtail or restart these operations will be made by the CCC.
+
+      - id:
+        criteria: Reduced ATS and Provision of Flight Information Services (FIS) and/or Aeronautical Radio Station Service
+        description: |
+          During the contingency period ATS including ATC may not be available. In cases where services are not available, a NOTAM will be issued providing the relevant information, including an expected date and time of resumption of service. The Contingency Plan provides for limited flight information and alerting services or an Aeronautical Radio Station to be established by CJLIA ATS UNIT.
+
+          In the event that the CJLIA ATS is being interrupted. Princess Juliana ATS will be responsible for providing all ATS in CJLIA CTR until further information is presented.
+
+      - id:
+        name: ATS Responsibilities
+        description: |
+          In the event that ATS cannot be provided in the CJLIA a NOTAM shall be
+          issued indicating the following:
+
+          a) time and date of the beginning of the contingency measures;
+          b) airspace available for landing and overflying traffic and airspace to be avoided;
+          c) details of the facilities and services available or not available and any limits on ATS provision (e.g., APPROACH, TOWER, FIS, Aeronautical Radio Station), including an expected date of restoration of services if available;
+          d) information on the provisions made for alternative services;
+          e) Applicable ATS routes and procedures, AIP-published, or tactically
+          defined contingency routes or procedures.
+          f) any special procedures to be followed by neighbouring ATS units not covered by this Plan;
+          g) any special procedures to be followed by pilots; and
+          h) any other details with respect to the disruption and actions being
+          taken that aircraft operators may find useful.
+
+          NOTAM pro-forma are provided at APPENDIX A.
+
+          In the event that the CJLIA NOTAM Office is unable to issue the NOTAM, the
+          alternate International NOTAM Office at Piarco Trinidad and Tobago will take action to issue the contingency NOTAM upon notification by the C J L I A N O T A M office.
+
+
+      - id:
+        name: Aircraft Separation
+        description: |
+          5.6 Aircraft separation criteria, where applicable, will be in accordance with the Procedures for Air Navigation Services-Air Traffic Management (PANS-ATM, ICAO Doc 4444) and the Regional Supplementary Procedures (ICAO Doc 7030).
+
+      - id:
+        name: Airspace Classifications
+        description: |
+          5.7 Depending on the degree of disruption, airspace classifications may be changed to reflect the reduced level of services. Changes to airspace classification will be notified by NOTAM.
+
+      - id:
+        name: Aircraft Position Reporting
+        description:
+          - 5.8 The primary means of communication will be by VHF radio.
+
+          - 5.9 Traffic Information Broadcast by Aircraft (TIBA) procedures shall apply when ATC is unavailable. The TIBA is part of the contingency PPR briefing which gives the relevant information to all users. Details of TIBA procedures and communications requirements are provided in [Attachment B to Annex 11 to the Convention on Civil Aviation reproduced in Appendix A and will be supported by the provision of an Aeronautical Radio Station where possible.
+
+          - |
+            5.10 The TIBA frequency shall be as follows:
+
+            The airspace will revert to Aeronautical Radio operations where the service will be provided via use of handheld and base radio operating on frequency 118.5Mhz. The temporary arrangement to contact adjacent units such as Juliana/San Juan will be done via telephone line. Vehicles requiring crossing will monitor 118.5MHz and state that they will be crossing the runway. Air traffic control clearances will be passed to the CJLIA radio operators which will be issued on behalf of the adjacent ATC unit where the read back will be done full to the issuing authority. The pilot is to read back, in full, the clearance relayed by the radio operator.
+
+            When an Aeronautical Radio Station is temporarily established the call sign used shall be “Anguilla Radio” to differentiate from the normal ATC provision on the published frequency.
+
+      - id:
+        name: Procedures for ATS Units
+        roles:
+          - name: ATS Units
+            responsibilities: |
+              5.11 CJLIA ATCU will follow their unit instructions and activate the appropriate level of contingency procedures in line with this Plan and any other relevant LoAs or MoUs. These procedures include the following:
+              a) Where ATS provided by CJLIA ATS UNIT may be reduced or disrupted by a short- notice contingency event, ATC will inform pilots of the emergency condition and advise if it is likely that the ATC facility will be evacuated and ATS suspended. In the event of it becoming necessary to evacuate the building, the unit evacuation procedures will be activated, and time permitting, controllers will make an emergency evacuation transmission on the radio frequency in use providing pilots with alternate means of communication;
+              b) during the period the contingency procedures are in effect, flight plan and other aircraft movement messages must continue to be transmitted by operators to CJLIA ATS UNIT via the AMHS using normal procedures;
+
+              c) on notification by CJLIA ATS unit, adjacent ATS units, Centres, States and FIRs specified in Paragraph 2, as appropriate, will activate any of the contingency procedures agreed via an LoA or MoU.
+              d) prior to entry to the CJLIA CTR during contingency operations PPR must be obtained from CJLIA authority, and flights must comply with the ATC clearances, procedures and communications instructions issued by the ATC authority responsible for the airspace immediately adjacent to the contingency airspace.
+              e) coordination of aircraft boundary estimates and levels by the adjacent ATC authority responsible for aircraft entering the CJLIA C T R shall be in accordance with the agreed procedures as detailed in the LOA or as otherwise agreed as part of the contingency operations.
+
+      - id:
+        name: Transition to and from Contingency Operations
+        description: |
+          5.12 In the event of airspace closure that has not been promulgated, ATC should, if possible, broadcast to all aircraft in their airspace, what airspace is being closed and to stand by for further instructions.
+          5.13ATS providers should recognize that when closures of airspace or airports are promulgated, individual airlines might have different company requirements as to their alternative routings. ATC should be ready to respond to any request by aircraft and react commensurate with safety.
+
+      - id:
+        name: Transfer of Control and Coordination
+        description: |
+          Unless otherwise specified in the Plan, relevant LOA or agreed tactically as part of the contingency operation, transfer of control and communication should be in accordance with standard operating procedures.
+
+
+      - id:
+        name: PILOT AND OPERATOR PROCEDURES: Filing of flight plans
+        roles:
+          - Pilot
+          - Operator
+        description: |
+          6.1 Flight planning requirements detailed in the Eastern Caribbean AIP continue to apply during contingency operations, except where modified by the contingency procedures specified by ATC and/or by NOTAM.
+
+      - id:
+        name: PILOT AND OPERATOR PROCEDURES: Flight approval
+        roles:
+          - Operator
+
+        responsibilities: |
+          6.2 Aircraft operators must obtain PPR from the CJLIA Authority prior to operating flights within the CJLIA CTR. During the period of activation of this ContingencyPlan the adjacent ATS authority will provide normal ATC clearances for aircraft to enter the CJLIA CTR. The adjacent ATS authority is not responsible for coordination or provision of PPR for the CJLIA CTR. The operator must ensure any PPR has been obtained.
+
+      - id:
+        name: PILOT AND OPERATOR PROCEDURES: Pilot operating procedures
+        roles:
+          - Pilot
+
+        responsibilities: |
+          6.3 Pilots will continue to make or broadcast routine position reports in line with normal ATC reporting procedures.
+
+          1.4 Pilots of aircraft operating in the CJLIA CTR during contingency operations shall comply
+          with the following procedures:
+           flights are to flight plan using any specified contingency routes according to their airport of origin and destination;
+           aircraft are to operate as close as possible to any assigned contingency route;
+           a continuous communications watch shall be maintained on the contingency
+          frequency as notified
+           in the absence of an ATS, aircraft position reports and other information shall be
+          broadcast in accordance with TIBA procedures defined in the CJLIA PPR briefing;
+           aircraft navigation and anti-collision lights shall be displayed;
+           except in cases of emergency or for reasons of flight safety, pilots are to, during
+          their entire flight within CJLIA CTR, comply with any ATC clearance
+          specified.
+           not all operational circumstances can be addressed by this Contingency Plan and
+          pilots are to maintain a high level of alertness when operating in the contingency
+          airspace and take appropriate action to ensure safety of flight.
+           Pilots shall continuously guard the VHF emergency frequency 121.5 MHz and should
+          operate their transponder during flight, regardless of whether the aircraft is within or outside airspace where secondary surveillance radar (SSR) is used for ATS purposes. Transponders should be set on the last discrete code assigned by ATC or select code 2000 if no code was assigned.
+
+      - id:
+        name: AERONAUTICAL SUPPORT SERVICES
+        roles:
+          - name: Aeronautical Information Services (AIS)
+            responsibilities: |
+              8.1 The Aeronautical Information Service is available for operations between 1100utc- 2100utc. In the event that the AIS office is close the Piarco Office will be called via telephone and details will be given to the office to have any information disseminate on behalf of CJLIA ATS unit.
+
+          - name: Meteorological Services (MET)
+            responsibilities: |
+              8.2 Meteorological services are available at the same time as the CJLIA ATC unit opening and closing hours. During contingency operations the CJLIA Meteorological Services will communicate with V.C Bird meteorological Service for assistance in disseminating metrological information.
+
+      - id:
+        name: SEARCH AND RESCUE ALERTING: Notification and Coordination
+        description: |
+          9.1 The SAR authority responsible for the CJLIA CTR is the Fort de France Rescue Coordination Centre (RCC)
+            Telephone Fax AFTN Email
+            011596596709292/011596596731616 011596596632450
+            TFFFZPZX antilles@mrccfr.eu
+
+  # contact information of relevant parties
+  contact_information:
+    - name: Air Traffic Services Manager
+      group: "C J. Lloyd Management Team"
+      tel: 1-264-584-9974
+
+    - name: Quality Assurance Manager
+      group: "C J. Lloyd Management Team"
+      tel: 1-264-584-9648
+
+    - name: Safety Manager
+      group: "C J. Lloyd Management Team"
+      tel: 1-264-584-9779
+
+    - name: Security Manager
+      group: "C J. Lloyd Management Team"
+      tel: 1-264-584-9756
+
+    - name: Representative from AASPA
+      group: "C J. Lloyd Management Team"
+      tel: 1-264-584-1437
+
+    - name: Princess Juliana International Airport-ATS Unit
+      group: "Coordinating Bodies"
+      tel:
+        - 1-721-545-2160
+        - 1-721-545-5753
+
+    - name: V C Bird International Airport-ACC/ATS Unit
+      group: "Coordinating Bodies"
+      tel: 1-268-462-4703
+
+    - name: Luis Muñoz Marín International Airport-ACC/ATS Unit
+      group: "Coordinating Bodies"
+      tel:
+        - 1-787-253-8731
+        - 1-787-253-8732
+
+  # communication requirements and procedures
+  communication:
+    - id:
+      name: Degradation of Communication - Pilot Radio Procedures
+      roles:
+        - name: Pilots
+          reponsibilities:
+            - 7.1 When operating within the contingency airspace, pilots should use normal radio communication procedures where ATS services are available. Where limited or no ATS is available communications conducted will be in accordance with the communication procedures in this Plan, or as otherwise notified by NOTAM.
+
+            - 7.2 If communications are lost unexpectedly on the normal ATS frequencies, pilots should try the next applicable frequency. Pilots should also consider attempting to contact ATC on the last frequency where two-way communication had been established. In the absence of communication with ATC, the pilot should continue to make routine position reports on the assigned frequency, and broadcast positions in accordance with the TIBA procedures.
+
+    - id:
+      name: Communication frequencies
+      description: |
+        7.3 A list of frequencies to be used for the CJLIA CTR is detailed in Paragraph 5
+
+    channels:
+
+      - name: NOTAM
+        description: ATC not available. An Aeronautical Station has been established for the purposes of providing weather and traffic information to assist pilots operating on and in the vicinity of the aerodrome. It is available during the notified operating hours of the airport; Anguilla Radio on frequency 118.500, DOC 25nms, SFC-4000ft.
+
+      - name: Traffic Information Broadcasts
+        description: |
+          Traffic Information Broadcasts by Aircraft Procedures- see attachment B in Annex 11.
+
+  dependencies:
